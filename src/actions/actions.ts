@@ -19,4 +19,5 @@ export async function deleteExpense(id: number) {
             id: id,
         }
     })
+    revalidatePath("/app/dashboard")
 }
