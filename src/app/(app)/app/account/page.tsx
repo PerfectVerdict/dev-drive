@@ -2,7 +2,12 @@ import React from 'react'
 
 function Account() {
     return (
-        <div>account</div>
+        <>
+            <div className='text-center'>
+            <h1 className="text-3xl font-bold text-white ">Account</h1>
+            <p className='text-white mt-2'>Logged in with email: <span className='font-bold'>email</span></p>
+            </div>
+        </>
     )
 }
 
