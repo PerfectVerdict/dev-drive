@@ -13,7 +13,7 @@ type ExpensesListProps = {
 export default function ExpensesList({ expenses }: ExpensesListProps) {
 
     return (
-        <ul className="h-[700px] bg-white rounded mt-4 shadow-m">
+        <ul className="flex flex-col bg-white rounded mt-4 shadow-m">
             {expenses.map((expense) => (
                 <li key={expense.id} className="flex items-center px-4 py-2 border-b">
                     <p>{expense.description}</p>
